@@ -291,7 +291,7 @@ end)
 task.spawn(function()
     while task.wait() do
         if getgenv().VNM.Tracer.Enabled and Plr ~= nil and (Plr.Character) then
-            getgenv().partt = tostring(GetNearestPartToCursorOnCharacter(Plr.Character))
+            getgenv().partt = tostring(GetClosestBodyPart(Plr.Character))
         end
     end
 end)
