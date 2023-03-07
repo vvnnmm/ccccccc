@@ -6,8 +6,8 @@ if getgenv().loadedl == true then
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
 local Notify = AkaliNotif.Notify;
 
-getgenv().partlol = "HumanoidRootPart"
-getgenv().partt = "HumanoidRootPart"
+getgenv().partlol = "Head"
+getgenv().partt = "Head"
 
 local Prey = nil 
 local Plr = nil
